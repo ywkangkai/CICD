@@ -1,0 +1,77 @@
+自动构建
+===========================
+
+###########环境依赖
+python 3.7
+Maven
+Git
+Gradle:(jdk,android_sdk)
+备注:所有环境包在SVN\【非密】配置管理,自取
+
+
+###########部署步骤
+1. 添加Maven环境变量
+    Maven_HOME  / xxxxxxxxxxxxxxxxxxxxxxxx   （maven路径）
+    系统变量path添加 %MAVEN_HOME%\bin
+    检查maven环境是否配置成功    Cmd输入 mvn -version
+
+2. 添加Git环境变量
+    系统变量path添加 Git路径
+    检查git环境是否配置成功    Cmd输入 git -v
+
+3. 添加Gradle环境
+    安装jdk 1.8并配置环境变量
+    android-sdk环境变量配置
+        ANDROID_HOME  /  G:\android-sdk-windows（sdk安装路径）
+        PATH添加两个变量(tools和platform-tools)
+            PATH  添加  G:\android-sdk-windows\tools
+            PATH  添加  G:\android-sdk-windows\platform-tools
+        检查android-sdk环境是否配置成功    Cmd输入 adb
+    Gradle环境变量配置
+        GRADLE_HOME  /  D:\gradle-2.4（gradle安装路径）
+        PATH  添加  D:\gradle-2.4\bin
+        检查gradle环境是否配置成功    Cmd输入 gradle
+
+4. 参数
+    -t[server,all,tool,client,allclone,devServer,devServerCluster,releaseServer,releaseServerCluster] -p[sta,cdszf,None] -c[master,head] -o
+	命令行组合解释:
+	
+		  -tserver -cmaster -psta -oD:\server                     表示构建标准产品的服务端并放在D盘的server文件夹中
+		  
+		  -tclient -cmaster -psta -oD:\client                     表示构建标准产品的客户端并放在D盘的client文件夹中 	
+		  
+		  -ttool -cmaster -psta -oD:\tools                        表示构建标准产品的所有安装工具并放在D盘的tools文件夹中
+		  
+		  -tall -cmaster -psta -oD:\all                           表示一次性构建标准产品所有的服务端,客户端,安装工具并放在D盘的all文件夹中
+		  
+		  -tdevServer -cmaster -pcdszf -oD:\cdszf                 表示构建开发阶段单机版成都市定制版的服务端并放在D盘的cdszf文件夹中
+		  
+		  -tdevClient -cmaster -pcdszf -oD:\cdszf                 表示构建开发阶段成都市定制版的客户端并放在D盘的cdszf文件夹中
+		  
+		  -tdevServerCluster -cmaster -pcdszf -oD:\cdszf          表示构建发布阶段集群版成都市定制版的服务端并放在D盘的cdszf文件夹中	
+		  
+		  -treleaseServer -cmaster -pcdszf -oD:\cdszf             表示构建发布阶段单机版成都市定制版的服务端并放在D盘的cdszf文件夹中
+		  
+		  -treleaseClient -cmaster -pcdszf -oD:\cdszf             表示构建发布阶段成都市定制版的客户端并放在D盘的cdszf文件夹中
+		  
+		  -treleaseServerCluster -cmaster -pcdszf -oD:\cdszf      表示构建发布阶段集群版成都市定制版的服务端并放在D盘的cdszf文件夹中
+		  
+		  -tallclone -cmaster -None -oD:\allclone                 表示一次性拉取所有仓库代码
+
+###########目录结构描述
+├── Readme                      // 说明文档
+├── bulid                       // 执行文件
+├── CDSZF                       // 定制工程项目
+│   ├── outpath                // 构建包存放路径
+│   ├── CDSZF.yaml             // 配置文件
+│   ├── CDSZF_build            // 定制模块构建脚本
+
+├── data                        // 标准产品工程项目
+     ├── outpath                // 构建包存放路径
+     ├── STA.yaml               // 配置文件
+     ├── STA_build              // 标准产品构建脚本
+
+├── common                      // 输出格式控制
+
+
+
