@@ -1,0 +1,33 @@
+CDSZF-smeetingsystem-client: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-client.git
+CDSZF-smeetingsystem-server: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-server.git
+CDSZF-smeetingsystem-server-web: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-server-web.git
+smeeting-admin-tool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-admin-tool.git
+smeeting-maintenance: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-maintenance.git
+smeeting-server-config: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config.git
+smeeting-server-config-cluster: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config-cluster.git
+smeetingsystem-client: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client.git
+smeetingsystem-client-picviewer: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client-picviewer.git
+smeetingsystem-client-plugins: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client-plugins.git
+smeetingsystem-client-videoplayer: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client-videoplayer.git
+smeetingsystem-netdisk: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-netdisk.git
+smeetingsystem-pcreader: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-pcreader.git
+smeetingsystem-server: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server.git
+smeetingsystem-server-web: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server-web.git
+smeetingsystem-whiteboard-server: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-whiteboard-server.git
+
+CDSZF_smeetingsystem_client_commid: None
+CDSZF_smeetingsystem_server_commid: None
+CDSZF_smeetingsystem_server_web_commid: None
+smeeting_admin_tool_commid: None
+smeeting_maintenance_commid: None
+smeeting_server_config_commid: None
+smeeting_server_config_cluster_commid: None
+smeetingsystem_client_commid: None
+smeetingsystem_client_picviewer_commid: None
+smeetingsystem_client_plugins_commid: None
+smeetingsystem_client_videoplayer_commid: None
+smeetingsystem_netdisk_commid: None
+smeetingsystem_pcreader_commid: None
+smeetingsystem_server_commid: None
+smeetingsystem_server_web_commid: None
+smeetingsystem_whiteboard_server_commid: None

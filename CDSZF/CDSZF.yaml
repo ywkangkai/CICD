@@ -1,0 +1,90 @@
+##############仓库地址路径###############
+CDSZF_Web: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-server-web.git
+
+Server: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server.git
+
+Server_Web: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server-web.git
+
+CDSZF_Server: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-server.git
+
+admintool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-admin-tool.git
+
+configtool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config.git
+
+clustertool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config-cluster.git
+
+client: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client.git
+
+client_picviewer: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client-picviewer.git
+
+client_videoplayer: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client-videoplayer.git
+
+client_wstreader: git clone ssh://kang.kai@192.168.4.33:29418/wstreader.git
+
+CDSZF_Client: git clone ssh://kang.kai@192.168.4.33:29418/CDSZF-smeetingsystem-client.git
+
+
+##############分支地址路径###############
+server_commid_Id: None
+
+Server_Web_commid_id: None
+
+CDSZF_Server_commid_id: None
+
+CDSZF_Server_Web_commid_id: None
+
+admin_tool_commid_Id: None
+
+config_tool_commid: None
+
+cluster_tool_commid: None
+
+client_commid: None
+
+client_picviewer_commid: None
+
+client_videoplayer_commid: None
+
+client_wstreader_commid: None
+
+CDSZF_Client_commid: None
+
+
+
+##############文件地址路径###############
+server_smsManage_path: \smeetingsystem-server-web\scripts\views\container\systemManage
+web_smsManage_path: \CDSZF-smeetingsystem-server-web\scripts\views\container\systemManage
+web_systemParams_html_path: \CDSZF-smeetingsystem-server-web\scripts\views\container\systemManage\templates
+server_systemParams_html_path: \smeetingsystem-server\src\main\resources\static\scripts\views\container\systemManage\templates
+cdszf_server_web_sider: \CDSZF-smeetingsystem-server-web\scripts\views\layout
+server_web_sider: \smeetingsystem-server-web\scripts\views\layout
+cdszf_server_web_sider_html: \CDSZF-smeetingsystem-server-web\scripts\views\layout\templates
+server_web_sider_html: \smeetingsystem-server-web\scripts\views\layout\templates
+cdszf_web_login_html: \CDSZF-smeetingsystem-server-web
+server_web_login_html: \smeetingsystem-server-web
+cdszf_server_web_businessclient_js: \CDSZF-smeetingsystem-server-web\scripts\business
+server_web_businessclient_js: \smeetingsystem-server-web\scripts\business
+cdszf_web_header_js: \CDSZF-smeetingsystem-server-web\scripts\views\layout
+server_web_header_js: \smeetingsystem-server-web\scripts\views\layout
+cdszf_web_header_html: \CDSZF-smeetingsystem-server-web\scripts\views\layout\templates
+server_web_header_html: \smeetingsystem-server-web\scripts\views\layout\templates
+cdszf_web_unitsManage: \CDSZF-smeetingsystem-server-web\scripts\views\container\unitsManage
+server_web_unitsManage: \smeetingsystem-server-web\scripts\views\container\unitsManage
+cdszf_web_BaseView_js: \CDSZF-smeetingsystem-server-web\scripts\util
+server_web_BaseView_js: \\smeetingsystem-server-web\scripts\util
+cdszf_server_static: CDSZF-smeetingsystem-server\src\main\resources\static
+
+
+
+##############客户端地址路径###############
+committee_path: CDSZF-smeetingsystem-client\app\build\outputs\apk\committee\release
+gov_path: CDSZF-smeetingsystem-client\app\build\outputs\apk\gov\release
+cdszf_lib: CDSZF-smeetingsystem-client\app\libs
+meeting_aar: smeetingsystem-client\meeting\build\outputs\aar
+common_aar: smeetingsystem-client\common\build\outputs\aar
+tflibrary_aar: smeetingsystem-client\tflibrary\build\outputs\aar
+videoplayerlib_aar: smeetingsystem-client-videoplayer\videoplayerlib\build\outputs\aar
+LargeImage_aar: smeetingsystem-client-picviewer\LargeImage\build\outputs\aar
+readerlib_aar: wstreader\readerlib\build\outputs\aar
+
+

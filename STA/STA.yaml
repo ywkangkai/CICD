@@ -1,0 +1,59 @@
+#########版本配置###########
+all_version:
+            温江: AO-ULT-CM-DM-MS
+            市政府: AO-ULT-FS
+            市委: ULT-MS
+            基础版本: AO-ULT
+
+
+############分支配置#################
+server_commid: 2be16cc241e1260cfd2de53b232568661b9364f9
+
+server_Web_commid: 5fe12c9848897fe3f085c42f9778c1a1fc5c7bf5
+
+client_commid: e48c8c31a2fe9238f2e4f49e4fd32dc8ed7a1c50
+
+admin_tool_commid: 7e5d02d1264da3866ffb5312365e7e310c50576f
+
+config_tool_commid: 7e5d02d1264da3866ffb5312365e7e310c50576f
+
+cluster_tool_commid: a92f05e3d4a234b2f1e949f6af20eb9c25ff346e
+
+file_commid: 7a080511c04040e2670894fe33ccf65baedb547c
+
+
+################仓库地址#####################
+server: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server.git
+
+Server_Web: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-server-web.git
+
+file_server: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-netdisk.git
+
+admintool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-admin-tool.git
+
+configtool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config.git
+
+client: git clone ssh://kang.kai@192.168.4.33:29418/smeetingsystem-client.git
+
+clustertool: git clone ssh://kang.kai@192.168.4.33:29418/smeeting-server-config-cluster.git
+
+
+################服务端路径地址##################
+server_static: \smeetingsystem-server\src\main\resources\static
+server_web_static: \smeetingsystem-server-web
+
+
+
+################工具路径地址##################
+res_path: smeeting-admin-tool\dist
+config_res_path: smeeting-server-config\dist
+cluster_res_path: smeeting-server-config-cluster\dist
+src_res_path: smeeting-admin-tool\src\res
+config_src_res_path: smeeting-server-config\src\res
+cluster_src_res_path: smeeting-server-config-cluster\src\res
+
+
+################客户端路径地址##################
+committee_path: smeetingsystem-client\app\build\outputs\apk\committee\release
+gov_path: smeetingsystem-client\app\build\outputs\apk\gov\release
+paperfree_path: smeetingsystem-client\app\build\outputs\apk\paperfree\release
